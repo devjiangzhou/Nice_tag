@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "JZPulsingView.h"
+#import "JZTagTextView.h"
+#import "JZTagView.h"
 
 @interface ViewController ()
 
@@ -16,7 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    JZTagView * tag = [[JZTagView alloc]initWithFrame:CGRectMake(100, 100, 100, HEIGHT)];
+    tag.backgroundColor = [UIColor clearColor];
+    tag.text = @"Tag Demo";
+    [self.view addSubview:tag];
 }
 
 - (void)didReceiveMemoryWarning {

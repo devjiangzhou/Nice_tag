@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790791EC1AC3DEA9004078C6 /* JZTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 790791EB1AC3DEA9004078C6 /* JZTagView.m */; };
+		790791EF1AC3E1C2004078C6 /* big_biaoqian_didian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 790791ED1AC3E1C2004078C6 /* big_biaoqian_didian@2x.png */; };
+		790791F21AC3E1DF004078C6 /* big_biaoqian_ren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 790791F11AC3E1DF004078C6 /* big_biaoqian_ren@2x.png */; };
 		79DB05401AC309D5001DCD19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB053F1AC309D5001DCD19 /* main.m */; };
 		79DB05431AC309D5001DCD19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB05421AC309D5001DCD19 /* AppDelegate.m */; };
 		79DB05461AC309D5001DCD19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB05451AC309D5001DCD19 /* ViewController.m */; };
@@ -14,6 +17,9 @@
 		79DB054B1AC309D5001DCD19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DB054A1AC309D5001DCD19 /* Images.xcassets */; };
 		79DB054E1AC309D5001DCD19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79DB054C1AC309D5001DCD19 /* LaunchScreen.xib */; };
 		79DB055A1AC309D5001DCD19 /* PulsingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB05591AC309D5001DCD19 /* PulsingDemoTests.m */; };
+		79DB05681AC30B4B001DCD19 /* JZPulsingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB05671AC30B4B001DCD19 /* JZPulsingView.m */; };
+		79DB056A1AC30E44001DCD19 /* big_biaoqian_dian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79DB05691AC30E44001DCD19 /* big_biaoqian_dian@2x.png */; };
+		79DB056D1AC3B378001DCD19 /* JZTagTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB056C1AC3B378001DCD19 /* JZTagTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790791EA1AC3DEA9004078C6 /* JZTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTagView.h; sourceTree = "<group>"; };
+		790791EB1AC3DEA9004078C6 /* JZTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTagView.m; sourceTree = "<group>"; };
+		790791ED1AC3E1C2004078C6 /* big_biaoqian_didian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big_biaoqian_didian@2x.png"; sourceTree = "<group>"; };
+		790791F11AC3E1DF004078C6 /* big_biaoqian_ren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big_biaoqian_ren@2x.png"; sourceTree = "<group>"; };
 		79DB053A1AC309D5001DCD19 /* PulsingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulsingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DB053E1AC309D5001DCD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DB053F1AC309D5001DCD19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,11 @@
 		79DB05531AC309D5001DCD19 /* PulsingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulsingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DB05581AC309D5001DCD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DB05591AC309D5001DCD19 /* PulsingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulsingDemoTests.m; sourceTree = "<group>"; };
+		79DB05661AC30B4B001DCD19 /* JZPulsingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPulsingView.h; sourceTree = "<group>"; };
+		79DB05671AC30B4B001DCD19 /* JZPulsingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPulsingView.m; sourceTree = "<group>"; };
+		79DB05691AC30E44001DCD19 /* big_biaoqian_dian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big_biaoqian_dian@2x.png"; sourceTree = "<group>"; };
+		79DB056B1AC3B378001DCD19 /* JZTagTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTagTextView.h; sourceTree = "<group>"; };
+		79DB056C1AC3B378001DCD19 /* JZTagTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTagTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,9 @@
 		79DB053C1AC309D5001DCD19 /* PulsingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				790791F11AC3E1DF004078C6 /* big_biaoqian_ren@2x.png */,
+				790791ED1AC3E1C2004078C6 /* big_biaoqian_didian@2x.png */,
+				79DB05691AC30E44001DCD19 /* big_biaoqian_dian@2x.png */,
 				79DB05411AC309D5001DCD19 /* AppDelegate.h */,
 				79DB05421AC309D5001DCD19 /* AppDelegate.m */,
 				79DB05441AC309D5001DCD19 /* ViewController.h */,
@@ -89,6 +107,12 @@
 				79DB054A1AC309D5001DCD19 /* Images.xcassets */,
 				79DB054C1AC309D5001DCD19 /* LaunchScreen.xib */,
 				79DB053D1AC309D5001DCD19 /* Supporting Files */,
+				79DB05661AC30B4B001DCD19 /* JZPulsingView.h */,
+				79DB05671AC30B4B001DCD19 /* JZPulsingView.m */,
+				79DB056B1AC3B378001DCD19 /* JZTagTextView.h */,
+				79DB056C1AC3B378001DCD19 /* JZTagTextView.m */,
+				790791EA1AC3DEA9004078C6 /* JZTagView.h */,
+				790791EB1AC3DEA9004078C6 /* JZTagView.m */,
 			);
 			path = PulsingDemo;
 			sourceTree = "<group>";
@@ -200,8 +224,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79DB05491AC309D5001DCD19 /* Main.storyboard in Resources */,
+				790791F21AC3E1DF004078C6 /* big_biaoqian_ren@2x.png in Resources */,
+				79DB056A1AC30E44001DCD19 /* big_biaoqian_dian@2x.png in Resources */,
 				79DB054E1AC309D5001DCD19 /* LaunchScreen.xib in Resources */,
 				79DB054B1AC309D5001DCD19 /* Images.xcassets in Resources */,
+				790791EF1AC3E1C2004078C6 /* big_biaoqian_didian@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DB05681AC30B4B001DCD19 /* JZPulsingView.m in Sources */,
 				79DB05461AC309D5001DCD19 /* ViewController.m in Sources */,
+				790791EC1AC3DEA9004078C6 /* JZTagView.m in Sources */,
 				79DB05431AC309D5001DCD19 /* AppDelegate.m in Sources */,
+				79DB056D1AC3B378001DCD19 /* JZTagTextView.m in Sources */,
 				79DB05401AC309D5001DCD19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +330,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -334,6 +365,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -345,6 +377,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PulsingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulsingDemo",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,6 +395,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PulsingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PulsingDemo",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +460,7 @@
 				79DB055F1AC309D5001DCD19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79DB05601AC309D5001DCD19 /* Build configuration list for PBXNativeTarget "PulsingDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +469,7 @@
 				79DB05621AC309D5001DCD19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
